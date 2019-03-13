@@ -1,0 +1,212 @@
+﻿.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.inbox_people {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    overflow: hidden;
+    width: 20%;
+    border-right: 1px solid #c4c4c4;
+}
+
+.inbox_msg {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+}
+
+.recent_heading {
+    text-align: left;
+    width: 100%;
+}
+
+.srch_bar {
+    display: inline-block;
+    text-align: right;
+    width: 60%;
+    padding: 0;
+}
+
+.headind_srch {
+    padding: 10px 29px 10px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.recent_heading h4 {
+    color: #05728f;
+    font-size: 21px;
+    margin: auto;
+}
+
+.srch_bar input {
+    border: 1px solid #cdcdcd;
+    border-width: 0 0 1px 0;
+    width: 80%;
+    padding: 2px 0 4px 6px;
+    background: none;
+}
+
+.srch_bar .input-group-addon button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+    color: #707070;
+    font-size: 18px;
+}
+
+.srch_bar .input-group-addon {
+    margin: 0 0 0 -27px;
+}
+
+.inbox_chat {
+    height: 550px;
+}
+
+.active_chat {
+    background: #ebebeb;
+}
+
+.incoming_msg {
+    margin: 26px 0;
+}
+
+.incoming_msg_img {
+    display: inline-block;
+    width: 6%;
+}
+
+.received_msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: top;
+    width: 92%;
+}
+
+.received_withd_msg div {
+    background: #F1F0F0 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.time_date {
+    clear: both;
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+
+.received_withd_msg {
+    width: 57%;
+}
+
+.mesgs {
+    float: left;
+    padding: 30px 15px 0 25px;
+    width: 80%;
+}
+
+.sent_msg div {
+    float: right;
+    background: #0099FF none repeat scroll 0 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.sent_msg span {
+    float: right;
+}
+
+.outgoing_msg {
+    overflow: hidden;
+    margin: 26px 0 26px;
+}
+
+.sent_msg {
+    float: right;
+    width: 46%;
+}
+
+.input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #4c4c4c;
+    font-size: 15px;
+    min-height: 48px;
+    width: 100%;
+}
+
+.type_msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.msg_send_btn {
+    background: #05728f none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 33px;
+}
+
+.messaging {
+    padding: 0 0 50px 0;
+}
+
+.msg_history {
+    height: 516px;
+    overflow-y: auto;
+    padding: 0 5px;
+}
+
+
+/*////////////////////////*/
+.inbox_chat ul {
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+    .inbox_chat ul li {
+        padding: 0.5rem 0;
+    }
+
+.user-online {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    .user-online img {
+        flex: 3;
+        height: 60px;
+        margin-right: 0.5rem;
+    }
+
+    .user-online span {
+        flex: 7;
+    }
